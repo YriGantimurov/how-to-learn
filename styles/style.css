@@ -1,16 +1,16 @@
-﻿A:link {
+﻿a:link {
   text-decoration: none;
   color: white
 }
-A:visited{
+a:visited{
   text-decoration: none;
   color: white
 }
-A:active{
+a:active{
   text-decoration: underline;
   color: white
 }
-A:hover{
+a:hover{
   text-decoration: underline;
   color: white
 }
@@ -20,7 +20,7 @@ ul {
 }
 
 /* Свой reset с блэк-джэком и куртизанками */
-body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
+body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
   margin:0;
   padding:0;
 }
@@ -87,7 +87,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   
   width: 388px;
   line-height: 25px;
-  font-size 18px;
+  font-size: 18px;
 }
 
 .header__main-illustration{
@@ -111,7 +111,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
 }
 
 .header__link{
-  color: blue;
+  color: #2f80ed;
 }
 /* Две колонны */
 
@@ -128,7 +128,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   display: flex;
 }
 
-.two-columns__brief {
+.two-columns__brief h2{
+  color: #2f80ed;
   width: 175px;
   font-size: 18px;
   line-height: 1.2;
@@ -142,17 +143,18 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
 
 .two-columns__paragraph {
   line-height: 34px;
-  font-size 24px;
+  font-size: 24px;
   font-weight: normal;
+  margin-bottom: 30px;
 }
 
-.two-columns__paragraph_space-up-down_30 {
-  margin: 30px 0;
+.two-columns__main-text :last-child {
+  margin: 0;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
-  font-size 24px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -168,7 +170,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
 .section-title {
   text-align: center;
   line-height: 69px;
-  font-size 60px;
+  font-size: 60px;
   font-weight: bold;
   width: 60%;
 }
@@ -176,7 +178,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
 .section-subtitle{
   text-align: center;
   line-height: 34px;
-  font-size 24px;
+  font-size: 24px;
   font-weight: normal;
   width: 60%;
   margin-top: 20px;
@@ -187,35 +189,30 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   display: flex;
   justify-content: space-between;
   width: 1100px;
-  self-align: center;
   flex-wrap: wrap;
 }
 
-.table__break {
-  flex-basis: 100%;
-  height: 60px;
-}
-
 .table__cell {
+  margin-top: 60px;
   width: 250px;
   height: auto;
 }
 
 .table__heading {
   line-height: 1.15;
-  font-size 24px;
+  font-size: 24px;
   font-weight: bold;
 }
 .table__text {
   line-height: 1.2;
-  font-size 18px;
+  font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
 }
 
 /* Фейнман */
 
-.feinman{
+.feynman{
   background: #f2f2f2;
   height: 790px;
   
@@ -226,7 +223,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   align-items: center;
 }
 
-.feinman__background-image {
+.feynman__background-image {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -235,9 +232,10 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   width: 867px;
 }
 
-.feinman__title {
+.feynman__title {
+  z-index: 2;
   line-height: 1.15;
-  font-size 120px;
+  font-size: 120px;
   font-weight: bold;
   text-align: center;
   
@@ -245,17 +243,17 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   margin: 100px 0 70px;
 }
 
-.feinman__subtitle {
+.feynman__subtitle {
   z-index: 2;
   line-height: 51px;
-  font-size 36px;
+  font-size: 36px;
   font-weight: normal;
 }
 
-.feinman__link {
+.feynman__link {
   z-index: 2;
   line-height: 51px;
-  font-size 36px;
+  font-size: 36px;
   font-weight: normal;
   
   position: absolute;
@@ -281,10 +279,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   width: 200px;
   color: white;
   margin-right: 0;
-}
-
-.table__break_theme_dark {
-  height: 80px;
+  margin-top: 80px;
 }
 
 .kaufman__triangle {
@@ -330,12 +325,9 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
 .footer__author {
   align-self: flex-start;
   padding: 18px 0;
-}
-
-.footer__column-heading{
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: bold;
+  line-height: 25px;
+  font-size:18px;
+  font-weight: normal;
 }
 
 .footer__column_content_social{
@@ -343,26 +335,27 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   flex-direction: column;
 }
 
+.footer__column-links{
+  margin: 20px 0 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .footer__social-icon{
   margin-right: 10px;
-  display: inline-block;
   width: 16px;
   height: 16px;
-}
-
-.footer__column-links-set{
-  margin: 20px 0 16px;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-links {
-  display: flex;
-  align-items: center;
+  font-weight: bold;
 }
 
 .footer__column-link{
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: normal;
-} 
+  display: flex;
+  align-items: center;
+}
