@@ -83,7 +83,7 @@
       <section class="feinman">
         <h2 class="feinman__title">Метод Феймана</h2>
         <h4 class="feinman__subtitle">Выучить и не забыть.</h4>
-        <a class="feinman__link"> Подробнее &rarr;</a>
+        <h4 class="feinman__link"> Подробнее &rarr;</h4>
         <img class="feinman__background-image" src="images/feynman.png" alt="feiman">
       </section>
 

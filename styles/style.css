@@ -110,6 +110,9 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, tr, th, a{
   top: 64px;
 }
 
+.header__link{
+  color: blue;
+}
 /* Две колонны */
 
 .description {
