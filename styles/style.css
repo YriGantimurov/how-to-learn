@@ -1,31 +1,4 @@
-﻿a:link {
-  text-decoration: none;
-  color: white
-}
-a:visited{
-  text-decoration: none;
-  color: white
-}
-a:active{
-  text-decoration: underline;
-  color: white
-}
-a:hover{
-  text-decoration: underline;
-  color: white
-}
-
-ul {
-    list-style: none;
-}
-
-/* Свой reset с блэк-джэком и куртизанками */
-body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
-  margin:0;
-  padding:0;
-}
-
-.page {
+﻿.page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -39,6 +12,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 /* Голова */
 
 .header {
+  margin:0;
+  padding:0;
   background: #f2f2f2;
   height: 100vh;
   min-height: 600px;
@@ -55,6 +30,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 .header__square-pic {
   height: 568px;
   width: 568px;
+  margin:0;
+  padding:0;
 }
 
 .logo_place_header {
@@ -62,14 +39,20 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
   top: 30px;
   left: 64px;
   background: url('../images/logo_place_header.svg');
+  margin:0;
+  padding:0;
 }
 
 .logo{
   width: 183px;
   height: 32px;
+  margin:0;
+  padding:0;
 }
 
 .header__title {
+  margin:0;
+  padding:0;
   z-index: 2;
   position: absolute;
   
@@ -80,6 +63,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .header__subtitle {
+  margin:0;
+  padding:0;
   z-index: 2;
   position: absolute;
   left: 64px;
@@ -88,9 +73,12 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
   width: 388px;
   line-height: 25px;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .header__main-illustration{
+  margin:0;
+  padding:0;
   width: 765px;
   height: 608px;
   
@@ -101,6 +89,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .header__square-pic {
+  margin:0;
+  padding:0;
   width: 568px;
   height: 568px;
   background: #2f80ed;
@@ -112,11 +102,31 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 
 .header__link{
   color: #2f80ed;
+  margin:0;
+  padding:0;
+}
+
+.header__link:link {
+  text-decoration: none;
+  color: white
+}
+.header__link:visited{
+  text-decoration: none;
+  color: white
+}
+.header__link:active{
+  text-decoration: underline;
+  color: white
+}
+.header__link:hover{
+  text-decoration: underline;
+  color: white
 }
 /* Две колонны */
 
 .description {
-  padding-top: 100px;
+  margin:0;
+  padding: 100px 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,11 +134,17 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .two-columns {
+  margin:0;
+  padding:0;
   width: 80%;
+  min-width: 900px;
   display: flex;
+  justify-content: space-between;
 }
 
-.two-columns__brief h2{
+.two-columns__brief {
+  margin:0;
+  padding:0;
   color: #2f80ed;
   width: 175px;
   font-size: 18px;
@@ -137,11 +153,16 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .two-columns__main-text {
+  list-style: none;
+  margin:0;
+  padding:0;
   width: 80%;
   min-width: 784px;
 }
 
 .two-columns__paragraph {
+  margin:0;
+  padding:0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -149,10 +170,13 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .two-columns__main-text :last-child {
+  padding:0;
   margin: 0;
 }
 
 .two-columns__span-accent {
+  margin:0;
+  padding:0;
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -161,6 +185,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 /* Цифры и факты */
 
 .digits {
+  margin:0;
   padding: 100px 0;
   display: flex;
   flex-direction: column;
@@ -168,6 +193,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .section-title {
+  margin:0;
+  padding:0;
   text-align: center;
   line-height: 69px;
   font-size: 60px;
@@ -176,16 +203,20 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .section-subtitle{
+  margin:20px 0 0 0;
+  padding:0;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  margin-top: 20px;
 }
 
 
 .table {
+  list-style: none;
+  margin:0;
+  padding:0;
   display: flex;
   justify-content: space-between;
   width: 1100px;
@@ -193,17 +224,22 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .table__cell {
-  margin-top: 60px;
+  margin: 60px 0 0 0;
+  padding: 0;
   width: 250px;
   height: auto;
 }
 
 .table__heading {
+  margin:0;
+  padding:0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 .table__text {
+  margin:0;
+  padding:0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -213,6 +249,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 /* Фейнман */
 
 .feynman{
+  margin:0;
+  padding:0;
   background: #f2f2f2;
   height: 790px;
   
@@ -224,6 +262,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .feynman__background-image {
+  margin:0;
+  padding:0;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -233,6 +273,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .feynman__title {
+  padding:0;
   z-index: 2;
   line-height: 1.15;
   font-size: 120px;
@@ -244,6 +285,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .feynman__subtitle {
+  margin:0;
+  padding:0;
   z-index: 2;
   line-height: 51px;
   font-size: 36px;
@@ -251,6 +294,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .feynman__link {
+  margin:0;
+  padding:0;
   z-index: 2;
   line-height: 51px;
   font-size: 36px;
@@ -261,9 +306,28 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
   right: 48px;
 }
 
+.feynman__link:link {
+  text-decoration: none;
+  color: white
+}
+.feynman__link:visited{
+  text-decoration: none;
+  color: white
+}
+.feynman__link:active{
+  text-decoration: underline;
+  color: white
+}
+.feynman__link:hover{
+  text-decoration: underline;
+  color: white
+}
+
 /* Кауфман */
 
 .kaufman {
+  margin:0;
+  padding:0;
   position: relative;
   overflow: hidden;
   padding: 90px 0; 
@@ -275,14 +339,16 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .table__cell_theme_dark {
+  margin:80px 0 0 0;
+  padding:0;
   z-index: 2;
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .kaufman__triangle {
+  margin:0;
+  padding:0;
   z-index: 1;
   width: 877px;
   height: 877px;
@@ -292,6 +358,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .footer {
+  margin:0;
   color: white;
   background: #1f1f1f;
   display: flex;
@@ -302,6 +369,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .footer__columns {
+  margin:0;
+  padding:0;
   display: flex;
   justify-content: space-between;
   
@@ -310,19 +379,28 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
   
 }
 
-.footer__column_content_copywrite {
+.footer__column:{
+  border: red solid 1px;
+  margin:0;
+  padding:0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.footer__column_content_copywrite {
   justify-content: space-between;
   flex-basis: 711px;
 }
 
 .logo_place_footer {
+  margin:0;
+  padding:0;
   width: 183px;
   height: 35px;
 }
 
 .footer__author {
+  margin:0;
   align-self: flex-start;
   padding: 18px 0;
   line-height: 25px;
@@ -330,12 +408,16 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
   font-weight: normal;
 }
 
-.footer__column_content_social{
+.footer__column {
+  margin:0;
+  padding:0;
   display: flex;
   flex-direction: column;
 }
 
 .footer__column-links{
+  list-style: none;
+  padding:0;
   margin: 20px 0 16px;
   line-height: 30px;
   font-size: 18px;
@@ -343,19 +425,41 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, li, a{
 }
 
 .footer__column-heading{
+  margin:0;
+  padding:0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
 .footer__social-icon{
-  margin-right: 10px;
+  margin:0 10px 0 0;
+  padding:0;
   width: 16px;
   height: 16px;
   font-weight: bold;
 }
 
 .footer__column-link{
+  margin:0;
+  padding:0;
   display: flex;
   align-items: center;
+}
+
+.footer__column-link:link {
+  text-decoration: none;
+  color: white
+}
+.footer__column-link:visited{
+  text-decoration: none;
+  color: white
+}
+.footer__column-link:active{
+  text-decoration: underline;
+  color: white
+}
+.footer__column-link:hover{
+  text-decoration: underline;
+  color: white
 }
