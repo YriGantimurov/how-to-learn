@@ -1,0 +1,22 @@
+.footer__column-link{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .footer__column-link:link {
+    text-decoration: none;
+    color: white
+  }
+  .footer__column-link:visited{
+    text-decoration: none;
+    color: white
+  }
+  .footer__column-link:active{
+    text-decoration: underline;
+    color: white
+  }
+  .footer__column-link:hover{
+    text-decoration: underline;
+    color: white
+  }
