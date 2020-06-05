@@ -18,6 +18,7 @@
    <link rel="stylesheet" href="blocks/table/table.css">
    <link rel="stylesheet" href="blocks/two-columns/two-columns.css">
    <link rel="stylesheet" href="blocks/cards/cards.css">
+   <link rel="stylesheet" href="blocks/techniques/techniques.css">
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,7 +30,9 @@
       <img src="images/header-image.png" class="header__main-illustration" alt="какой-то пацанчик"> 
       <div class="header__square-pic"></div>
     </header>
+
     <main class="content">
+
       <section class="description">
         <section class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -46,6 +49,7 @@
           </ul>
         </section>
       </section>
+
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
@@ -76,9 +80,35 @@
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </li>
           <li class="cards__item">
-            
           </li>
         </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title">Видео на TED</h2>
+        <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
+        <div class="video__iframes">
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="oakley">
+        <section class="two-columns">
+          <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+          <ul class="two-columns__main-text">
+            <li class="two-columns__paragraph">
+              С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
+            </li>
+          </ul>
+      </section>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <h4 class="feynman__subtitle">Выучить и не забыть.</h4>
+        <a class="feynman__link"> Подробнее &rarr;</a>
+        <img class="feynman__background-image" src="images/feynman.png" alt="фейнман">
       </section>
 
       <section class="digits">
@@ -123,11 +153,9 @@
         </ul>
       </section>
 
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h4 class="feynman__subtitle">Выучить и не забыть.</h4>
-        <a class="feynman__link"> Подробнее &rarr;</a>
-        <img class="feynman__background-image" src="images/feynman.png" alt="фейнман">
+      <section class="khan">
+        <div class="khan__container"></div>
+        
       </section>
 
       <section class="kaufman">
@@ -179,7 +207,9 @@
         </ul>
         <img src=images/kaufman-triangle.svg alt="треугольник" class="kaufman__triangle">
       </section>
+
     </main>
+
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
