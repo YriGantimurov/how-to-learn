@@ -5,20 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
    <link rel="stylesheet" href="vendor/normalize.css">
-   <link rel="stylesheet" href="blocks/description/description.css">
-   <link rel="stylesheet" href="blocks/digits/digits.css">
-   <link rel="stylesheet" href="blocks/feynman/feynman.css">
-   <link rel="stylesheet" href="blocks/footer/footer.css">
-   <link rel="stylesheet" href="blocks/header/header.css">
-   <link rel="stylesheet" href="blocks/kaufman/kaufman.css">
-   <link rel="stylesheet" href="blocks/logo/logo.css">
-   <link rel="stylesheet" href="blocks/page/page.css">
-   <link rel="stylesheet" href="blocks/section-subtitle/section-subtitle.css">
-   <link rel="stylesheet" href="blocks/section-title/section-title.css">
-   <link rel="stylesheet" href="blocks/table/table.css">
-   <link rel="stylesheet" href="blocks/two-columns/two-columns.css">
-   <link rel="stylesheet" href="blocks/cards/cards.css">
-   <link rel="stylesheet" href="blocks/techniques/techniques.css">
+   <link rel="stylesheet" href="blocks/cards/index.css">
+   <link rel="stylesheet" href="blocks/description/index.css">
+   <link rel="stylesheet" href="blocks/digits/index.css">
+   <link rel="stylesheet" href="blocks/feynman/index.css">
+   <link rel="stylesheet" href="blocks/footer/index.css">
+   <link rel="stylesheet" href="blocks/header/index.css">
+   <link rel="stylesheet" href="blocks/kaufman/index.css">
+   <link rel="stylesheet" href="blocks/logo/index.css">
+   <link rel="stylesheet" href="blocks/page/index.css">
+   <link rel="stylesheet" href="blocks/section-subtitle/index.css">
+   <link rel="stylesheet" href="blocks/section-title/index.css">
+   <link rel="stylesheet" href="blocks/table/index.css">
+   <link rel="stylesheet" href="blocks/techniques/index.css">
+   <link rel="stylesheet" href="blocks/two-columns/index.css">
+   <link rel="stylesheet" href="blocks/khan/index.css">
+   <link rel="stylesheet" href="blocks/video/index.css">
+   <link rel="stylesheet" href="blocks/oakley/index.css">
+   <link rel="stylesheet" href="blocks/resourses/index.css">
+   <link rel="stylesheet" href="blocks/rotation/rotation.css">
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,7 +33,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <h4 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link"> Узнать &rarr;</a></h4>
       <img src="images/header-image.png" class="header__main-illustration" alt="какой-то пацанчик"> 
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -154,8 +159,17 @@
       </section>
 
       <section class="khan">
-        <div class="khan__container"></div>
-        
+        <div class="khan__container">
+           <h3 class="khan__author">Салман Хан</h3>
+           <h2 class="khan__title">Весь мир - школа</h2>
+           <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+           <h3 class="khan__quote-author">Джордж Лукас</h3>
+           <h4 class="khan__quote-author-subline">Кинорежиссер, продюсер</h4>
+           <div class="khan__block-container">
+             <img src="images/khan-book.jpg" alt="обложка книги" class="khan__book-pic">
+             <a href="#" class="khan__buy-link">Купить книгу&rarr;</a>
+         </div>
+        </div>
       </section>
 
       <section class="kaufman">
@@ -205,7 +219,18 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <img src=images/kaufman-triangle.svg alt="треугольник" class="kaufman__triangle">
+        <img src=images/kaufman-triangle.svg alt="треугольник" class="kaufman__triangle rotation">
+      </section>
+
+      <section class="resourses">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <h3 class="cection-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+        <div class="resourses__logo-zone">
+          <img src="images/resources-arzamas.svg" alt="логотип арзамас" class="resourses__logo">
+          <img src="images/resources-n1.svg" alt="логотип Н+1" class="resourses__logo">
+          <img src="images/resources-strelka.svg" alt="логотип стрелка" class="resourses__logo">
+          <img src="images/resources-polka.svg" alt="логотип полка" class="resourses__logo">
+        </div>
       </section>
 
     </main>

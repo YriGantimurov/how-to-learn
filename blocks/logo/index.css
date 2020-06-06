@@ -1,0 +1,22 @@
+.logo{
+    width: 183px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo_place_footer {
+    margin: 0;
+    padding: 0;
+    width: 183px;
+    height: 35px;
+  }
+
+  .logo_place_header {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    background: url('../images/logo_place_header.svg');
+    margin: 0;
+    padding: 0;
+  }

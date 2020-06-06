@@ -8,21 +8,10 @@
     position: absolute;
     bottom: 50%;
     right: 48px;
-  }
-  
-  .feynman__link:link {
     text-decoration: none;
-    color: white
+    transition: opasity linear .5s;
   }
-  .feynman__link:visited{
-    text-decoration: none;
-    color: white
-  }
-  .feynman__link:active{
-    text-decoration: underline;
-    color: white
-  }
-  .feynman__link:hover{
-    text-decoration: underline;
-    color: white
+
+  .feynman__link:hover {
+    opacity: .6;
   }

@@ -3,20 +3,11 @@
     padding: 0;
     display: flex;
     align-items: center;
-  }
-  .footer__column-link:link {
     text-decoration: none;
-    color: white
+    color: white;
+    transition: opacity linear .5s;
   }
-  .footer__column-link:visited{
-    text-decoration: none;
-    color: white
-  }
-  .footer__column-link:active{
-    text-decoration: underline;
-    color: white
-  }
-  .footer__column-link:hover{
-    text-decoration: underline;
-    color: white
+
+  .footer__column-link:hover {
+    opacity: .6;
   }

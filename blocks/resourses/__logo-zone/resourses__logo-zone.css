@@ -1,8 +1,7 @@
-.footer__columns {
-    margin: 0;
+.resourses__logo-zone {
+    margin: 80px 0 0 0;
     padding: 0;
+    width: 1100px;
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    min-height: 350;
   }
