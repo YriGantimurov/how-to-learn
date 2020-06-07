@@ -17,8 +17,9 @@
     z-index: 1;
     width: 877px;
     height: 877px;
-    
+    background-image: url(../../images/kaufman-triangle.svg);
     position: absolute;
     right: -210px;
     top: 0;
+    background-size: cover;
   }
