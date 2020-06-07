@@ -19,22 +19,7 @@
 @import url(../blocks/resourses/index.css);
 @import url(../blocks/rotation/index.css);
 
-.video__iframe {
-    width: 515px;
-    height: 316px;
-    border: 0;
-    margin: 0;
-    padding: 0%;
-}
-
-.video__iframe:first-of-type {
-    margin-right: 20px;
-}
-
-.resourses__logo {
-    transition: opacity 0.5s linear;
-}
-
-.resourses__logo:hover {
-    opacity: 0.6;
-}
+/*Файлы index.css на уровне блоков нужны для того, чтобы модификаторы работали (иначе глобальные стили их перебивают). 
+  Подобный способ решения этой проблемы предложила наша кураторша. Вот что она написала в Slack:
+  "Определить на уровне блока файл index.css в который складывать все стили, относящиеся к блоку и импортировать уже его в финальный index.css"*/
+/*Я не совсем понял, о каком отступе у "картинки с мальчиком" идёт речь. Он должен быть прижат к нижнему правому углу. (Я так и сделал)*/
